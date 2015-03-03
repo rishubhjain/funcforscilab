@@ -1,0 +1,14 @@
+Image and path seems to be a bad idea...instead work on return image that is processed..plus Display image
+
+
+and the image should be coloured or grayscale...thats also a big thing
+
+check the polygon function is drawing(not made the polygon function)...and also try the drawing functions in scilab
+
+
+in Rotation function we need to give the parameter of angle....so not writting that function..cause i dont know where to give the parameter
+
+
+Now this parameter issue is in every function..i realised this in simple Thresholding ...in cv2.thresholding the parameters we pass must be given by user...Since i dont know parameter name i am just doing the image thing..later on will modify
+
+Now The Real Game Begins!!!
