@@ -9,9 +9,14 @@ function [image] = cv_rgb2gray_path(path)
     
     pyImport rgb2gray_file
     image=rgb2gray_file.rgb2gray(path)
-    
-    
+
 endfunction 
+
+
+function[img_ret]=cv_imshow(image)
+    pyImport imshow
+    img_ret=imshow.imshow1(image)
+endfunction
 
 function[image]=cv_imread(image_path)
     pyImport imread1
